@@ -44,19 +44,19 @@ public class Sat {
         else for (int i = 0; i < -pomak; i++) Prethodni();
     }
 
-    public final int DajSate() {
+    public int getSati() {
         return sati;
     }
 
-    public final int DajMinute() {
+    public int getMinute() {
         return minute;
     }
 
-    public final int DajSekunde() {
+    public int getSekunde() {
         return sekunde;
     }
 
-    public final void Ispisi() {
+    public void Ispisi() {
         System.out.println(sati + ":" + minute + ":" + sekunde);
     }
 }
